@@ -1,0 +1,30 @@
+Este código é um programa para calcular o valor a ser pago por um plano de saúde,
+com base na idade do conveniado. O programa utiliza uma tabela de preços para determinar o adicional
+a ser acrescentado ao valor base de R$ 100.
+
+
+Primeiro, são definidas as variáveis para armazenar os valores fixos e os adicionais por idade. O
+valor fixo que todos pagam é armazenado na variável valorGeral, que é igual a 100. Os adicionais por
+idade são armazenados nas variáveis menosDeDez, dezATrinta, trintaACessenta e acimaDeCessenta,
+representando os valores de R$ 80, R$ 50, R$ 95 e R$ 130, respectivamente.
+
+Em seguida, há uma estrutura condicional (if-else if-else) para verificar a idade do conveniado e
+calcular o valor total a ser pago. O código verifica em qual faixa etária a idade se encaixa e exibe
+uma mensagem com o valor acrescentado ao valor base.
+
+Se a idade for menor que 10, é exibida a mensagem informando que crianças com menos de 10 anos pagam
+um adicional de R$ 80. O valor total é calculado somando o valor base e o adicional de R$ 80.
+
+Se a idade estiver entre 10 e 30, é exibida a mensagem informando que conveniados com idade
+entre 10 e 30 anos pagam um adicional de R$ 50. O valor total é calculado somando o valor base e o adicional
+de R$ 50.
+
+Se a idade estiver entre 30 e 60, é exibida a mensagem informando que conveniados com idade
+entre 30 e 60 anos pagam um adicional de R$ 95. O valor total é calculado somando o valor base e o adicional
+de R$ 95.
+
+Se a idade for maior que 60, é exibida a mensagem informando que conveniados a partir de 60 anos pagam um
+adicional de R$ 130. O valor total é calculado somando o valor base e o adicional de R$ 130.
+
+No final do código, são feitas algumas chamadas da função planoDeSaude com diferentes idades para testar o
+programa. Os valores resultantes são impressos no console.
